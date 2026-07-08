@@ -1,0 +1,25 @@
+#home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#menu{
+    display:grid;
+    padding-left: 7%;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 40px;
+    background-color: beige;
+    border: 4px solid black;
+}
+
+
+#footer{
+    display: grid;
+    align-items: right;
+    width: 100%;
+    padding-bottom: 3%; 
+    border-top: 1px solid black;
+}
