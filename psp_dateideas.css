@@ -13,22 +13,7 @@
 }
 
 body{
-    align-content: center;
-}
-
-
-#intro{
-    align-items: center;
-    display: grid;
-    text-align: center;
-    font-size: 15px;
-    border-top: 1.75px solid black;
-    width: 100%;
-}
-
-body{
-    align-items: center;
-
+    align-items: center    
 }
 
 #todo{
@@ -38,15 +23,132 @@ body{
 }
 
 
+
+h1{
+    padding: 18px;
+    max-width: 800px;
+    align-items: center;
+    background-color: rgb(255, 105, 170);
+    margin-left: 20%
+}
+
+#intro{
+    display: grid;
+    text-align: center;
+    font-size: 45px;
+    border-top: 1.75px solid black;
+    width: 100%;
+    align-items: center;
+}
+
+#intro2{
+    display: grid;
+    width: 100%;
+    text-align: center;
+    text-shadow: 13px pink;
+    font-size: 45px;
+    border-bottom: 1.75px solid black;
+    padding-top: 5%;
+    align-items: center;
+
+
+}
+
+#home{
+    padding-top: 25px;
+    padding-bottom: 150px;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 1400px;
+    row-gap: 50px;
+
+}
+
 #p1{
     display: grid;
     grid-row: 1;
+    max-width: 85%;
+    padding-right: 3%;
     column-gap: 10px;
     align-items: center;
     border: 3px solid grey; 
     text-align:justify;
+}
+
+#img1{
+    display: grid;
+    border: 5px solid #000;
+    width: 90%;
+    grid-column: 1;
+    grid-row: 1;
+}
+h2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1fr;
+    
+}
+
+
+#p2{
+    display: grid;
+    grid-row: 2;
+    font-size: 21px;
+    width: 90%;
+    align-items: center;
+    text-align: justify;
+    padding-left: 10px;
 
 }
+h3{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    width: 520px;
+    padding-left: 7%;
+
+}
+#img2{
+    border: 5px solid #000;
+    width: 90%;
+    max-height: 92%;
+    margin-right: 25%;
+    grid-row: 2;
+    grid-column: 2;
+    max-width: 375px;
+    min-height: 250px;
+
+}
+
+
+
+#p3{
+    display: grid;
+    font-size:x-large;
+    align-items: center;   
+    text-align: justify;
+    border: 3px solid grey;
+    max-width: 90%;
+}
+
+h4{
+    display: grid;
+    grid-row: 3;
+    width: 80%;
+    column-gap: 150px;
+    align-items: center;   
+    padding-left: 12%;
+}
+#img3{
+    display: grid;
+    border: 5px solid #000;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 3;
+}
+
 
 
 #footer{
@@ -58,3 +160,4 @@ body{
     background-color: blanchedalmond;
 
 }
+
